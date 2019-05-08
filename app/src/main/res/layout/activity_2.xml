@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Activity2"
+    android:background="@android:color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/latitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="Lattiude:"
+        android:textSize="25dp"
+        android:textColor="#000000"
+
+
+        />
+
+    <TextView
+        android:id="@+id/latitude_text"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/latitude_label"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/latitude_label"
+        android:text="Lattitude goes here"
+        android:textIsSelectable="true"
+        android:textSize="25dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/longitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:text="Longitude:"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/longitude_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/longitude_label"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/longitude_label"
+        android:text="Lattitude goes here"
+        android:textIsSelectable="true"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+    <ImageView
+        android:id="@+id/image_Call"
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:layout_alignBottom="@id/image_Ping"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/white"
+        android:cropToPadding="true"
+        android:src="@drawable/call" />
+
+
+    <ImageView
+        android:id="@+id/image_Ping"
+        android:layout_width="wrap_content"
+        android:layout_height="182dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="191dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/white"
+        android:src="@drawable/sos" />
+
+
+
+
+</RelativeLayout>
+
+
+
